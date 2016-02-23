@@ -2,7 +2,6 @@
   "name": "BasicReactExpress",
   "version": "1.0.0",
   "description": "this is a demo application made with react, express and nodejs,",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
