@@ -39,7 +39,7 @@ function bundle() {
   return bundler
     .bundle()
     .on('error', notify)
-    .pipe(source('main.js'))
+    .pipe(source('bundle.js'))
     .pipe(gulp.dest('public'));
 }
 bundler.on('update', bundle);
